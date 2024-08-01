@@ -15,12 +15,12 @@ const productSchema= new mongoose.Schema({
         require: [true,'please enter the price of your product  '],
         max:999999
     },
-    user:{
-        type:mongoose.Schema.ObjectId,
-        ref:'user',
-        require:true,
+    // user:{
+    //     type:mongoose.Schema.ObjectId,
+    //     ref:'user',
+    //     require:true,
 
-    }
+    // }
 })
 
 
